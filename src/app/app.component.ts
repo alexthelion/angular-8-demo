@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {UpdateSWService} from './update-sw.service';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +8,7 @@ import {UpdateSWService} from './update-sw.service';
 export class AppComponent {
   title = 'PWA demo application with Angular 8';
 
-  constructor(private sw: UpdateSWService) {
-    // check the service worker for updates
-    this.sw.checkForUpdates();
+  constructor() {
   }
 
   showWelcomeDialog() {
