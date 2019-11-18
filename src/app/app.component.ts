@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'PWA demo application with Angular 8';
+  title = 'PWA demo application with Angular 8 and Workbox';
 
   constructor() {
   }
